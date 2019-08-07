@@ -1,6 +1,6 @@
 {
   "name": "koa-joi-rest",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Koa joi RESTful controller builder",
   "main": "index.js",
   "repository": "https://github.com/michael34435/koa-joi-rest.git",
