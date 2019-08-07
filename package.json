@@ -1,0 +1,26 @@
+{
+  "name": "koa-joi-rest",
+  "version": "0.0.0",
+  "description": "Koa joi RESTful controller builder",
+  "main": "index.js",
+  "repository": "https://github.com/michael34435/koa-joi-rest.git",
+  "author": "Michael.K <michael34435@capslock.tw>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "koa-joi-router": "^6.0.0",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
