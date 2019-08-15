@@ -78,7 +78,7 @@ module.exports = (
 
         return {
           ...route,
-          path: route.path.replace(/\/+/, '/'),
+          path: route.path.replace(/\/+/, '/').replace(/:(\w+)$/, '\\:$1'),
           handler: handlers[index],
           validate: validates[index],
           pre: middlewares[index],
