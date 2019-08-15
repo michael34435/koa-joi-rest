@@ -1570,6 +1570,6 @@ specifiers:
   eslint-config-airbnb: ^17.1.1
   eslint-import-resolver-node: ^0.3.2
   eslint-plugin-import: ^2.18.2
-  koa-joi-router: ^6.0.0
+  koa-joi-router: 'github:michael34435/joi-router'
   lodash: ^4.17.10
   mocha: ^5.2.0
