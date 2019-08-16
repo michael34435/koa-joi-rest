@@ -1,4 +1,5 @@
 dependencies:
+  koa-joi-multi-validates-router: 6.0.1-alpha.2
   koa-joi-router: /koa-joi-multi-validates-router/6.0.1-alpha.1
   lodash: 4.17.15
 devDependencies:
@@ -902,6 +903,24 @@ packages:
       node: '>= 7.6.0'
     resolution:
       integrity: sha512-NbAbjGVnTqffNAIebtEuzAd4OSZ+xAqb8aiGosbJrjnkrC503Xkwb8evSQ9nlO83nna0UCIXqcq6suTwQ0M+Uw==
+  /koa-joi-multi-validates-router/6.0.1-alpha.2:
+    dependencies:
+      '@hapi/joi': 15.0.0
+      await-busboy: 1.0.3
+      clone: 2.1.2
+      co-body: 6.0.0
+      debug: 4.1.1
+      delegates: 1.0.0
+      flatten: 1.0.2
+      is-gen-fn: 0.0.1
+      koa-router: 7.4.0
+      methods: 1.1.2
+      sliced: 1.0.1
+    dev: false
+    engines:
+      node: '>= 7.6.0'
+    resolution:
+      integrity: sha512-WBiYAj+HyLZO51aFYHYQlPmnOebIFY+KtqMDiOMXMgn5NoCEJNg3OarM6tserRK+UipPO/26rNlEwMVJStv1tw==
   /koa-router/7.4.0:
     dependencies:
       debug: 3.2.6
@@ -1565,6 +1584,7 @@ specifiers:
   eslint-config-airbnb: ^17.1.1
   eslint-import-resolver-node: ^0.3.2
   eslint-plugin-import: ^2.18.2
+  koa-joi-multi-validates-router: ^6.0.1-alpha.2
   koa-joi-router: 'npm:koa-joi-multi-validates-router@^6.0.1-alpha.1'
   lodash: ^4.17.10
   mocha: ^5.2.0
