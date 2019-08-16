@@ -1,5 +1,5 @@
 dependencies:
-  koa-joi-router: github.com/michael34435/joi-router/553bf00e05ffcc589d62f4b1e8e6a190b2b7b988
+  koa-joi-router: github.com/michael34435/joi-router/5f977d31b5ac9125af122f05b6e72d1b299ab690
   lodash: 4.17.15
 devDependencies:
   eslint: 6.1.0
@@ -498,7 +498,7 @@ packages:
       semver: 6.3.0
       strip-ansi: 5.2.0
       strip-json-comments: 3.0.1
-      table: 5.4.5
+      table: 5.4.6
       text-table: 0.2.0
       v8-compile-cache: 2.1.0
     dev: true
@@ -1432,7 +1432,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
-  /table/5.4.5:
+  /table/5.4.6:
     dependencies:
       ajv: 6.10.2
       lodash: 4.17.15
@@ -1442,7 +1442,7 @@ packages:
     engines:
       node: '>=6.0.0'
     resolution:
-      integrity: sha512-oGa2Hl7CQjfoaogtrOHEJroOcYILTx7BZWLGsJIlzoWmB2zmguhNfPJZsWPKYek/MgCxfco54gEi31d1uN2hFA==
+      integrity: sha512-wmEc8m4fjnob4gt5riFRtTu/6+4rSe12TpAELNSqHMfF3IqnA+CH37USM6/YR3qRZv7e56kAEAtd6nKZaxe0Ug==
   /text-table/0.2.0:
     dev: true
     resolution:
@@ -1542,7 +1542,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
-  github.com/michael34435/joi-router/553bf00e05ffcc589d62f4b1e8e6a190b2b7b988:
+  github.com/michael34435/joi-router/5f977d31b5ac9125af122f05b6e72d1b299ab690:
     dependencies:
       '@hapi/joi': 15.0.0
       await-busboy: 1.0.3
@@ -1560,7 +1560,7 @@ packages:
       node: '>= 7.6.0'
     name: koa-joi-router
     resolution:
-      tarball: 'https://codeload.github.com/michael34435/joi-router/tar.gz/553bf00e05ffcc589d62f4b1e8e6a190b2b7b988'
+      tarball: 'https://codeload.github.com/michael34435/joi-router/tar.gz/5f977d31b5ac9125af122f05b6e72d1b299ab690'
     version: 0.0.0
 specifiers:
   eslint: ^6.1.0
