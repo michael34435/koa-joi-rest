@@ -1,5 +1,5 @@
 dependencies:
-  koa-joi-router: github.com/michael34435/joi-router/5f977d31b5ac9125af122f05b6e72d1b299ab690
+  koa-joi-router: /koa-joi-multi-validates-router/6.0.1-alpha.1
   lodash: 4.17.15
 devDependencies:
   eslint: 6.1.0
@@ -884,6 +884,24 @@ packages:
     dev: false
     resolution:
       integrity: sha1-qFzLQLfZhtjlo0Wzoazo6rz1Tec=
+  /koa-joi-multi-validates-router/6.0.1-alpha.1:
+    dependencies:
+      '@hapi/joi': 15.0.0
+      await-busboy: 1.0.3
+      clone: 2.1.2
+      co-body: 6.0.0
+      debug: 4.1.1
+      delegates: 1.0.0
+      flatten: 1.0.2
+      is-gen-fn: 0.0.1
+      koa-router: 7.4.0
+      methods: 1.1.2
+      sliced: 1.0.1
+    dev: false
+    engines:
+      node: '>= 7.6.0'
+    resolution:
+      integrity: sha512-NbAbjGVnTqffNAIebtEuzAd4OSZ+xAqb8aiGosbJrjnkrC503Xkwb8evSQ9nlO83nna0UCIXqcq6suTwQ0M+Uw==
   /koa-router/7.4.0:
     dependencies:
       debug: 3.2.6
@@ -1542,31 +1560,11 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
-  github.com/michael34435/joi-router/5f977d31b5ac9125af122f05b6e72d1b299ab690:
-    dependencies:
-      '@hapi/joi': 15.0.0
-      await-busboy: 1.0.3
-      clone: 2.1.2
-      co-body: 6.0.0
-      debug: 4.1.1
-      delegates: 1.0.0
-      flatten: 1.0.2
-      is-gen-fn: 0.0.1
-      koa-router: 7.4.0
-      methods: 1.1.2
-      sliced: 1.0.1
-    dev: false
-    engines:
-      node: '>= 7.6.0'
-    name: koa-joi-router
-    resolution:
-      tarball: 'https://codeload.github.com/michael34435/joi-router/tar.gz/5f977d31b5ac9125af122f05b6e72d1b299ab690'
-    version: 0.0.0
 specifiers:
   eslint: ^6.1.0
   eslint-config-airbnb: ^17.1.1
   eslint-import-resolver-node: ^0.3.2
   eslint-plugin-import: ^2.18.2
-  koa-joi-router: 'github:michael34435/joi-router#master'
+  koa-joi-router: 'npm:koa-joi-multi-validates-router@^6.0.1-alpha.1'
   lodash: ^4.17.10
   mocha: ^5.2.0
