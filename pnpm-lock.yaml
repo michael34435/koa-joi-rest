@@ -1,5 +1,5 @@
 dependencies:
-  koa-joi-router: github.com/michael34435/joi-router/5bd46e49e6c7db025986f43cde647fafd912b9e1
+  koa-joi-router: github.com/michael34435/joi-router/553bf00e05ffcc589d62f4b1e8e6a190b2b7b988
   lodash: 4.17.15
 devDependencies:
   eslint: 6.1.0
@@ -1542,7 +1542,7 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-/lg70HAjtkUgWPVZhZcm+T4hkL8Zbtp1nFNOn3lRrxnlv50SRBv7cR7RqR+GMsd3hUXy9hWBo4CHTbFTcOYwig==
-  github.com/michael34435/joi-router/5bd46e49e6c7db025986f43cde647fafd912b9e1:
+  github.com/michael34435/joi-router/553bf00e05ffcc589d62f4b1e8e6a190b2b7b988:
     dependencies:
       '@hapi/joi': 15.0.0
       await-busboy: 1.0.3
@@ -1560,13 +1560,13 @@ packages:
       node: '>= 7.6.0'
     name: koa-joi-router
     resolution:
-      tarball: 'https://codeload.github.com/michael34435/joi-router/tar.gz/5bd46e49e6c7db025986f43cde647fafd912b9e1'
-    version: 6.0.0
+      tarball: 'https://codeload.github.com/michael34435/joi-router/tar.gz/553bf00e05ffcc589d62f4b1e8e6a190b2b7b988'
+    version: 0.0.0
 specifiers:
   eslint: ^6.1.0
   eslint-config-airbnb: ^17.1.1
   eslint-import-resolver-node: ^0.3.2
   eslint-plugin-import: ^2.18.2
-  koa-joi-router: 'github:michael34435/joi-router'
+  koa-joi-router: 'github:michael34435/joi-router#master'
   lodash: ^4.17.10
   mocha: ^5.2.0

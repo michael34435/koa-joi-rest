@@ -10,7 +10,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "koa-joi-router": "github:michael34435/joi-router",
+    "koa-joi-router": "github:michael34435/joi-router#master",
     "lodash": "^4.17.10"
   },
   "devDependencies": {
