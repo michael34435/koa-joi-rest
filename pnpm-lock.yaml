@@ -1,5 +1,5 @@
 dependencies:
-  koa-joi-router: /koa-joi-multi-validates-router/6.0.1-alpha.3
+  koa-joi-router: /koa-joi-multi-validates-router/6.0.1-alpha.4
   lodash: 4.17.15
 devDependencies:
   eslint: 6.1.0
@@ -205,7 +205,7 @@ packages:
   /co-body/6.0.0:
     dependencies:
       inflation: 2.0.0
-      qs: 6.7.0
+      qs: 6.8.0
       raw-body: 2.4.1
       type-is: 1.6.18
     dev: false
@@ -884,7 +884,7 @@ packages:
     dev: false
     resolution:
       integrity: sha1-qFzLQLfZhtjlo0Wzoazo6rz1Tec=
-  /koa-joi-multi-validates-router/6.0.1-alpha.3:
+  /koa-joi-multi-validates-router/6.0.1-alpha.4:
     dependencies:
       '@hapi/joi': 15.0.0
       await-busboy: 1.0.3
@@ -901,7 +901,7 @@ packages:
     engines:
       node: '>= 7.6.0'
     resolution:
-      integrity: sha512-a/q0nFU4XW4oSMIsl7qgYcW7c1LqCDJDCXZK9CL1BdY6UOhJTlJEITncNz4c3bGWgVh8gcjDngYEgdvrw8iM4g==
+      integrity: sha512-5Pz2DMNTjXWfGYeJ1idHKkDtZzcXCDfedqDcn3xvdAod2/o3sVWAhOtZK5rUbLqZIPmgXaEzAqvI7mMCdc2WVQ==
   /koa-router/7.4.0:
     dependencies:
       debug: 3.2.6
@@ -1221,12 +1221,12 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-  /qs/6.7.0:
+  /qs/6.8.0:
     dev: false
     engines:
       node: '>=0.6'
     resolution:
-      integrity: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+      integrity: sha512-tPSkj8y92PfZVbinY1n84i1Qdx75lZjMQYx9WZhnkofyxzw2r7Ho39G3/aEvSUdebxpnnM4LZJCtvE/Aq3+s9w==
   /raw-body/2.4.1:
     dependencies:
       bytes: 3.1.0
@@ -1565,6 +1565,6 @@ specifiers:
   eslint-config-airbnb: ^17.1.1
   eslint-import-resolver-node: ^0.3.2
   eslint-plugin-import: ^2.18.2
-  koa-joi-router: 'npm:koa-joi-multi-validates-router@^6.0.1-alpha.3'
+  koa-joi-router: 'npm:koa-joi-multi-validates-router@^6.0.1-alpha.4'
   lodash: ^4.17.10
   mocha: ^5.2.0

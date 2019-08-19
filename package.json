@@ -10,7 +10,7 @@
     "test": "mocha"
   },
   "dependencies": {
-    "koa-joi-router": "npm:koa-joi-multi-validates-router@^6.0.1-alpha.3",
+    "koa-joi-router": "npm:koa-joi-multi-validates-router@^6.0.1-alpha.4",
     "lodash": "^4.17.10"
   },
   "devDependencies": {
