@@ -52,13 +52,9 @@ module.exports = (
       method: 'patch',
       path: `/${routePrefix}/:id`,
     },
-    edit: {
-      method: 'get',
-      path: `/${routePrefix}/:id/edit`,
-    },
-    create: {
-      method: 'get',
-      path: `/${routePrefix}/create`,
+    upsert: {
+      method: 'put',
+      path: `/${routePrefix}/:id`,
     },
     destroy: {
       method: 'delete',
