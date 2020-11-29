@@ -1,5 +1,6 @@
 const joi = require('koa-joi-router');
 const _ = require('lodash');
+const pluralize = require('pluralize');
 
 module.exports = (
   {
@@ -21,7 +22,7 @@ module.exports = (
             ? name
             : [
               name,
-              `:${_.camelCase(`${name}Id`)}`,
+              `:${_.camelCase(`${pluralize.singular(name)}Id`)}`,
             ]
         ),
       ),
@@ -64,6 +65,10 @@ module.exports = (
       method: 'post',
       path: `/${routePrefix}`,
     },
+    vanish: {
+      method: 'delete',
+      path: `/${routePrefix}`,
+    },
   };
 
   const routers = Object
@@ -71,10 +76,11 @@ module.exports = (
     .map((index) => {
       if (index in defination) {
         const route = defination[index];
+        const path = route.path.replace(/\/+/, '/').replace(/([A-Za-z0-9\-_]+):(.+)$/, '$1\\:$2');
 
         return {
           ...route,
-          path: route.path.replace(/\/+/, '/').replace(/([A-Za-z0-9\-_]+):(.+)$/, '$1\\:$2'),
+          path,
           handler: handlers[index],
           validate: validates[index],
           pre: middlewares[index],

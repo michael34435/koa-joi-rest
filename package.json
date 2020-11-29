@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "koa-joi-router": "npm:koa-joi-multi-validates-router@^6.0.1-alpha.4",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "pluralize": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
