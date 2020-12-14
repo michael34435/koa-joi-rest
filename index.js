@@ -69,6 +69,10 @@ module.exports = (
       method: 'delete',
       path: `/${routePrefix}`,
     },
+    replace: {
+      method: 'put',
+      path: `/${routePrefix}`,
+    },
   };
 
   const routers = Object
